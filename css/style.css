@@ -1,0 +1,39 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+    padding-top: 30px;
+    background: #f3f1ef;
+}
+.container,
+.loading{
+    width: 1000px;
+    margin: 0 auto;
+}
+.loading{
+    background: url('https://cdn.dribbble.com/users/255512/screenshots/2215917/animation.gif') no-repeat center center;
+    background-size: contain;
+    display: none;
+    width: 100%;
+    height: 100px;
+}
+.loading.show{
+    display: block;
+}
+.news{
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    background: #fff;
+}
+.news-title{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.news-text{
+    font-size: 18px;
+}
